@@ -1,0 +1,281 @@
+.top_nav {
+    /* border: 3px solid red; */
+    background-color: rgb(72, 72, 247);
+    width: 100vw;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 999 !important;
+}
+
+.nav_elements {
+    /* border: 3px solid blue; */
+    margin: 0 auto;
+    width: 93%;
+    height: 9vh;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+/* logo start */
+.nav_elements .logo {
+    /* border: 3px solid green; */
+    width: 108px;
+    justify-content: space-between;
+}
+
+.nav_elements .logo .icon {
+    border: 3px solid snow;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+}
+
+.nav_elements .logo .icon .icon_box {
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+}
+
+.nav_elements .logo .icon img {
+    border: 1px solid snow;
+    border-radius: 18px;
+    width: 100%;
+}
+
+/* .logo .company_name {
+    border: 2px solid snow;
+} */
+
+.logo .company_name h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.logo_techset {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: snow;
+}
+
+.logo_code {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(124, 179, 124);
+}
+
+/* logo end */
+
+
+
+.github_n_nav_icon {
+    /* border: 3px solid yellow; */
+    width: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.github_icon {
+    border: 3px solid snow;
+    border-radius: 100%;
+    width: 27px;
+    height: 27px;
+    background-color: snow;
+}
+
+.github_icon a>svg {
+    /* border: 3px solid blue; */
+    width: 18px;
+}
+
+
+
+.desktop_nav_elements {
+    display: none;
+}
+
+
+
+/* Menu Icon Start */
+
+.nav_icon {
+    border: 3px solid transparent;
+    width: 24px;
+    height: 24px;
+
+    z-index: 14;
+}
+
+.hamburger {
+    /* padding: 3px 3px; */
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+.hamburger:hover {
+    opacity: 0.7;
+}
+
+.hamburger.is-active:hover {
+    opacity: 0.9;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    background-color: snow;
+}
+
+.hamburger-box {
+    margin-top: 2px;
+    outline: 0px;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    width: 21px;
+    height: 3px;
+    background-color: snow;
+    border-radius: 3px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.hamburger-inner::before,
+.hamburger-inner::after {
+    content: "";
+    display: block;
+}
+
+.hamburger-inner::before {
+    top: -9px;
+}
+
+.hamburger-inner::after {
+    bottom: -9px;
+}
+
+
+.hamburger--3dx .hamburger-box {
+    perspective: 90px;
+}
+
+.hamburger--3dx .hamburger-inner {
+    transition: transform 0.15s cubic-bezier(0.645, 0.045, 0.355, 1),
+        background-color 0s 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dx .hamburger-inner::before,
+.hamburger--3dx .hamburger-inner::after {
+    transition: transform 0s 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hamburger--3dx.is-active .hamburger-inner {
+    background-color: transparent !important;
+    transform: rotateY(180deg);
+}
+
+.hamburger--3dx.is-active .hamburger-inner::before {
+    transform: translate3d(0, 9px, 0) rotate(45deg);
+}
+
+.hamburger--3dx.is-active .hamburger-inner::after {
+    transform: translate3d(0, -9px, 0) rotate(-45deg);
+}
+
+/* Menu Icon End */
+
+
+
+/* Navigation Section */
+
+.navigation_section {
+    /* border: 3px solid snow; */
+    width: 180px;
+    height: 100vh;
+    padding: 9vh 0 0 0;
+    background-color: rgb(242, 242, 255);
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    transform: translateX(180px);
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    z-index: 4;
+}
+
+.navigation_section.overlay {
+    transform: translateX(0px);
+}
+
+/* Navigation Section End */
+
+
+
+.nav_links {
+    border: 3px solid transparent;
+    height: 100%;
+}
+
+.nav_sub_section {
+    border: 3px solid snow;
+    border-radius: 12px;
+    margin: 0 auto 9px auto;
+    width: 90%;
+    height: 6vh;
+    background-color: snow;
+    font-size: 8px;
+    box-shadow: 1px 1px 3px rgb(218, 218, 218);
+
+    /* justify-content: space-between; */
+}
+
+.nav_sub_section .section_icon {
+    border: 2px solid transparent;
+    width: 18%;
+    height: 60%;
+}
+
+.nav_sub_section .section_icon svg {
+    /* background-color: snow; */
+    font-size: 18px;
+    color: black;
+}
+
+.nav_sub_section .section_name {
+    border: 1px solid transparent;
+    font-family: Agdasima, sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 15px;
+    font-weight: bolder;
+    color: blue;
+}

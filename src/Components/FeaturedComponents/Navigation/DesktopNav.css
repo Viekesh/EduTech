@@ -1,0 +1,70 @@
+@media only screen and (min-width : 768px) {
+
+    .top_nav {
+        border: 3px solid snow;
+        padding: 9px 0;
+
+        /* background: rgba(255, 255, 255, 0.6);
+        box-shadow: 0 8px 32px 0 rgba(255, 254, 254, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18); */
+    }
+
+    .nav_elements {
+        /* border: 3px solid red; */
+        border-radius: 9px;
+        background-color: rgb(72, 72, 247);
+        width: 66%;
+        padding: 0 9px;
+    }
+
+    .nav_elements .logo {
+        width: 120px;
+    }
+
+    .logo .company_name h1 {
+        font-family: Oswald, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .logo_techset {
+        font-family: Oswald, sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+        color: rgb(248, 187, 187);
+        text-shadow: 1px 1px 1px 3px;
+    }
+
+    .logo_code {
+        font-family: Oswald, sans-serif;
+        font-size: 18px;
+        font-weight: 900;
+        color: rgb(186, 255, 186);
+    }
+
+    .nav_icon {
+        display: none;
+    }
+
+    .github_n_nav_icon {
+        width: 360px;
+        color: snow;
+    }
+
+    .desktop_nav_elements {
+        /* border: 2px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .desktop_nav_elements>a {
+        color: snow;
+        font-weight: bold;
+        font-family: Lexend, sans-serif;
+        font-size: 15px;
+    }
+}
