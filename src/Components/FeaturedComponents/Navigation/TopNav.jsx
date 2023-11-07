@@ -21,7 +21,7 @@ const TopNav = () => {
 
     return (
         <>
-            <div className="top_nav">
+            <div className="top_nav x_axis_center">
                 <div className="nav_elements y_axis_center">
                     <div className="logo x_y_axis_center">
                         {/* <div className="icon x_y_axis_center">
@@ -79,27 +79,29 @@ const TopNav = () => {
             >
                 <div className="nav_links">
                     <Link to="/LogIn" className="nav_sub_section y_axis_center">
-                        {/* <div className="section_icon x_y_axis_center">
+                        <div className="section_icon x_y_axis_center">
                             <BiUserCircle />
-                        </div> */}
+                        </div>
                         <h1 className="section_name">LogIn</h1>
                     </Link>
-                    <div className="nav_sub_section y_axis_center">
-                        {/* <div className="section_icon x_y_axis_center">
-                            <LuContact2 />
-                        </div> */}
+
+                    <NavLink to="/Register" className="nav_sub_section y_axis_center">
+                        <div className="section_icon x_y_axis_center">
+                            <PiQrCodeBold />
+                        </div>
                         <h1 className="section_name">Admission</h1>
-                    </div>
+                    </NavLink>
+
                     <div className="nav_sub_section y_axis_center">
-                        {/* <div className="section_icon x_y_axis_center">
+                        <div className="section_icon x_y_axis_center">
                             <BsJournalCode />
-                        </div> */}
+                        </div>
                         <h1 className="section_name">Case Studies</h1>
                     </div>
                     <div className="nav_sub_section y_axis_center">
-                        {/* <div className="section_icon x_y_axis_center">
+                        <div className="section_icon x_y_axis_center">
                             <LiaBloggerB />
-                        </div> */}
+                        </div>
                         <h1 className="section_name">News Letters</h1>
                     </div>
                     {/* <div className="nav_sub_section y_axis_center">
@@ -109,15 +111,15 @@ const TopNav = () => {
                         <h1 className="section_name">Projects</h1>
                     </div> */}
                     <div className="nav_sub_section y_axis_center">
-                        {/* <div className="section_icon x_y_axis_center">
+                        <div className="section_icon x_y_axis_center">
                             <LuContact2 />
-                        </div> */}
+                        </div>
                         <h1 className="section_name">Contact</h1>
                     </div>
                     <NavLink to="/About" className="nav_sub_section y_axis_center">
-                        {/* <div className="section_icon x_y_axis_center">
+                        <div className="section_icon x_y_axis_center">
                             <FcAbout />
-                        </div> */}
+                        </div>
                         <h1 className="section_name">About</h1>
                     </NavLink>
                 </div>

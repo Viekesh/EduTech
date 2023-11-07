@@ -1,0 +1,50 @@
+/* .register {
+    border: 3px solid red;
+} */
+
+.register form {
+    /* border: 3px solid greenyellow; */
+    margin: 0 auto;
+    flex-direction: column;
+    width: 280px;
+}
+
+.register form input {
+    border: 1px solid gray;
+    border-radius: 9px;
+    margin: 9px auto;
+    padding: 0 9px;
+    width: 270px;
+    height: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px rgb(192, 192, 241);
+}
+
+
+
+.for_pass_visi {
+    position: relative;
+}
+
+.for_pass_visi .reg_eye_invisible {
+    position: absolute;
+    top: 24px;
+    right: 15px;
+}
+
+
+
+.form_buttons button {
+    /* border: 1px solid black; */
+    border-radius: 9px;
+    margin: 9px auto;
+    padding: 0 9px;
+    width: 270px;
+    height: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px rgb(177, 177, 255);
+}
