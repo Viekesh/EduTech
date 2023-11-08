@@ -29,12 +29,12 @@ const TopNav = () => {
                                 <img src={logo} alt="logo_icon" />
                             </div>
                         </div> */}
-                        <div className="company_name x_y_axis_center">
+                        <NavLink to="/" className="company_name x_y_axis_center">
                             <h1>
                                 <span className="logo_techset">Study</span>
                                 <span className="logo_code">Smart</span>
                             </h1>
-                        </div>
+                        </NavLink>
                     </div>
 
                     <div className="github_n_nav_icon">

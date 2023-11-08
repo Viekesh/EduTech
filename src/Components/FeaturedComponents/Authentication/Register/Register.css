@@ -1,15 +1,21 @@
-/* .register {
-    border: 3px solid red;
-} */
-
-.register form {
-    /* border: 3px solid greenyellow; */
-    margin: 0 auto;
-    flex-direction: column;
-    width: 280px;
+.user_auth {
+    border: 3px solid transparent;
 }
 
-.register form input {
+.user_auth>.register {
+    border: 3px solid transparent;
+}
+
+.user_auth>.register>form {
+    border: 2px solid transparent;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_auth>.register>form>input {
     border: 1px solid gray;
     border-radius: 9px;
     margin: 9px auto;
@@ -19,21 +25,34 @@
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 600;
-    box-shadow: 1px 1px 3px rgb(192, 192, 241);
+    box-shadow: 1px 1px 3px rgb(196, 196, 252);
 }
 
-
-
-.for_pass_visi {
-    position: relative;
+.quali {
+    border: 1px solid gray;
+    border-radius: 9px;
+    margin: 9px auto;
+    padding: 0 9px;
+    width: 270px;
+    height: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px rgb(196, 196, 252);
+    background-color: snow;
 }
 
-.for_pass_visi .reg_eye_invisible {
+.user_auth>.register>form>.eye_invisible {
     position: absolute;
-    top: 24px;
-    right: 15px;
+    bottom: 150px;
+    right: 45px;
 }
 
+.user_auth>.register>form>.confirm_pass_eye_invisible {
+    position: absolute;
+    bottom: 87px;
+    right: 45px;
+}
 
 
 .form_buttons button {
