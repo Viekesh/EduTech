@@ -2,18 +2,19 @@ import React from "react";
 import "./LandingPage.css";
 import TopNav from "../../FeaturedComponents/Navigation/TopNav";
 import Footer from "../Footer/Footer";
-// import Loader from "../../FeaturedComponents/Spinner/Loader";
+import RandomQuotes from "../../FeaturedComponents/RandomQuoteGenerator/RandomQuotes";
 
 
 
 const LandingPage = () => {
+
     return (
         <>
-            <div className="landing_page">
+            <section className="landing_page">
                 <TopNav />
-                {/* <Loader /> */}
+                <RandomQuotes />
                 <Footer />
-            </div>
+            </section>
         </>
     )
 };

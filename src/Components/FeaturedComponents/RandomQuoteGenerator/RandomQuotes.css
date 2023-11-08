@@ -1,0 +1,21 @@
+.random_quote {
+    border: 3px solid black;
+    width: 80%;
+    margin: 36vh auto;
+    position: relative;
+    text-align: left;
+}
+
+.random_quote>h1 {
+    font-family: Monsterrat, sans-serif;
+    font-size: 27px;
+    font-weight: 900;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, rgb(72, 72, 212));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.random_quote>h5 {
+    position: absolute;
+    right: 15px;
+}
