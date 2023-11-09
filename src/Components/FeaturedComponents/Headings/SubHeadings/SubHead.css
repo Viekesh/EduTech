@@ -1,0 +1,17 @@
+.sub_head {
+    border: 2px solid transparent;
+    width: 86%;
+    margin: 21vh auto 3vh auto;
+}
+
+.sub_head>h2 {
+    font-size: 30px;
+    font-family: Monsterrat, sans-serif;
+    font-weight: 900;
+
+    background: linear-gradient(to right, green, blue, rgb(72, 72, 212));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 6px gray;
+}

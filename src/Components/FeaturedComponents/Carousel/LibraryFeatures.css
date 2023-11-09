@@ -1,0 +1,67 @@
+.library_features {
+    /* border: 3px solid transparent; */
+    border-radius: 15px;
+    margin: 3vh auto;
+    width: 88%;
+    box-shadow: 1px 1px 6px gray;
+}
+
+
+
+.library_features .e_com_swiper {
+    border: 3px solid transparent;
+    border-radius: 15px;
+    padding: 9px 0;
+    height: 60vh;
+    background-color: black;
+    box-shadow: 1px 1px 6px gray;
+}
+
+.e_com_swiper .feature_image {
+    border: 3px solid transparent;
+    border-radius: 12px;
+    margin: 0 auto;
+    width: 96%;
+    height: 27vh;
+    position: relative;
+}
+
+.e_com_swiper .feature_image img {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    box-shadow: 1px 1px 9px rgb(186, 186, 255);
+}
+
+.e_com_swiper .feature_image h3 {
+    border: 2px solid transparent;
+    position: absolute;
+    top: 30px;
+    left: 6px;
+
+    /* background: linear-gradient(to right, #f32170, rgb(72, 72, 212)); */
+    color: red;
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-background-clip: text; */
+    /* text-transform: capitalize; */
+    text-shadow: 1px 1px 6px gray;
+
+    z-index: 6;
+}
+
+
+.descrip {
+    border: 3px solid transparent;
+    width: 96%;
+    margin: 30px auto;
+}
+
+.descrip h5 {
+    color: snow;
+    font-family: Monsterrat, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: justify;
+}
