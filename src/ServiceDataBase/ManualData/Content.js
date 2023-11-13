@@ -31,7 +31,7 @@ export const FeaturesOfLib = [
     {
         id: 3,
         title: "24/7",
-        description: "In times of unexpected need, we'll extend an extra hour or two to empower you to soar with our facilitating feature",
+        description: "In times of unexpected need, we'll extend an extra hour or two to you to soar with our facilitating feature.",
         img: twentyfour
     }
 ];

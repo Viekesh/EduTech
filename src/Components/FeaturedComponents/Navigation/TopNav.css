@@ -269,7 +269,7 @@
     height: 60%;
 }
 
-.nav_sub_section .section_icon svg {
+.nav_sub_section .section_icon>svg {
     /* background-color: snow; */
     font-size: 18px;
     color: black;
