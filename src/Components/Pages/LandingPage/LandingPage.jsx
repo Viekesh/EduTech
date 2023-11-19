@@ -6,7 +6,6 @@ import RandomQuotes from "../../FeaturedComponents/RandomQuoteGenerator/RandomQu
 import { LandingPageHeadline } from "../../../ServiceDataBase/ManualData/Content";
 import LibraryFeatures from "../../FeaturedComponents/Carousel/LibraryFeatures";
 import SubHead from "../../FeaturedComponents/Headings/SubHeadings/SubHeading";
-import SocialLinks from "../../FeaturedComponents/SocialLinks/SocialLinks";
 
 
 
@@ -31,8 +30,6 @@ const LandingPage = () => {
                 <div className="qt">
                     <RandomQuotes />
                 </div>
-
-                <SocialLinks />
 
                 <Footer />
             </section>
