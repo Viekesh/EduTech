@@ -31,6 +31,67 @@
     font-size: 24px;
 }
 
+.mail {
+    border: 6px solid crimson;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: snow;
+    font-size: 18px;
+    box-shadow: 1px 1px 6px 1px gray;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(18px);
+
+    position: fixed;
+    right: 11vw;
+
+    animation: animate 0.3s;
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.mail>a>svg {
+    color: crimson;
+}
+
+.mail:active {
+    transform: scale(0.8);
+}
+
+
+
+.whatsapp {
+    border: 6px solid green;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: snow;
+    font-size: 18px;
+    box-shadow: 1px 1px 6px 1px gray;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(18px);
+
+    position: fixed;
+    right: 11vw;
+
+    animation: animate 0.3s;
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.whatsapp>a>svg {
+    color: green;
+    font-size: 33px;
+}
+
 
 
 /* .call_animate a .MuiSvgIcon-root {

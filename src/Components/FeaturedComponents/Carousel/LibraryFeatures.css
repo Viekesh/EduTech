@@ -65,3 +65,11 @@
     font-size: 15px;
     text-align: justify;
 }
+
+
+
+@media only screen and (min-width: 768px) {
+    .library_features {
+        display: none;
+    }
+}

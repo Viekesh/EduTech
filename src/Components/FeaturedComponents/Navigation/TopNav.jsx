@@ -96,15 +96,15 @@ const TopNav = () => {
 
                     <div className="nav_sub_section y_axis_center">
                         <div className="section_icon x_y_axis_center">
-                            <BsJournalCode />
+                            <LiaBloggerB />
                         </div>
-                        <h1 className="section_name">Case Studies</h1>
+                        <h1 className="section_name">Library</h1>
                     </div>
                     <div className="nav_sub_section y_axis_center">
                         <div className="section_icon x_y_axis_center">
-                            <LiaBloggerB />
+                            <BsJournalCode />
                         </div>
-                        <h1 className="section_name">News Letters</h1>
+                        <h1 className="section_name">Case Studies</h1>
                     </div>
                     {/* <div className="nav_sub_section y_axis_center">
                         <div className="section_icon x_y_axis_center">
