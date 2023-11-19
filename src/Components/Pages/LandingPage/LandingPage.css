@@ -15,14 +15,14 @@
     /* border: 3px solid black; */
     margin: 0 auto 3vh auto;
     width: 86%;
-    font-family: Monsterrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     font-weight: 900;
-    background: linear-gradient(to right, rgb(72, 72, 212), #cf23cf, #f32170, #ff6b08);
+    background: linear-gradient(to right, black, green, rgb(129, 214, 1), green, green, green);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-transform: capitalize;
-    text-shadow: 1px 1px 6px gray;
+    /* text-shadow: 1px 1px 6px rgb(255, 153, 153); */
 }
 
 .landing_page>.heading1>.text2 {

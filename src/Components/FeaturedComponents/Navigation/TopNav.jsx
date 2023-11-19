@@ -9,7 +9,7 @@ import { PiQrCodeBold } from "react-icons/pi";
 import { LuContact2 } from "react-icons/lu";
 import { FcAbout } from "react-icons/fc";
 import { BiUserCircle } from "react-icons/bi";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 
@@ -80,12 +80,12 @@ const TopNav = () => {
                 id="Navigation"
             >
                 <div className="nav_links">
-                    <Link to="/LogIn" className="nav_sub_section y_axis_center">
+                    <NavLink to="/LogIn" className="nav_sub_section y_axis_center">
                         <div className="section_icon x_y_axis_center">
                             <BiUserCircle />
                         </div>
                         <h1 className="section_name">LogIn</h1>
-                    </Link>
+                    </NavLink>
 
                     <NavLink to="/Register" className="nav_sub_section y_axis_center">
                         <div className="section_icon x_y_axis_center">

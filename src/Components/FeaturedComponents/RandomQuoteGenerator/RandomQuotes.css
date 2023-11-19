@@ -1,14 +1,20 @@
 .random_quote {
-    border: 3px solid transparent;
-    padding: 18px 0;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    border-radius: 15px;
+    padding: 15px 6px;
     width: 80%;
-    height: 21vh;
+    height: auto;
     position: relative;
     text-align: left;
+
+    display: flex;
+    align-items: center;
+
 }
 
 .random_quote>h1 {
-    font-family: Monsterrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 27px;
     font-weight: 900;
     background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, rgb(72, 72, 212));
@@ -18,8 +24,10 @@
 }
 
 .random_quote>h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
     color: snow;
     position: absolute;
     right: 15px;
-    bottom: 3px;
+    bottom: -30px;
 }

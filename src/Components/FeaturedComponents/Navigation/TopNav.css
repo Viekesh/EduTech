@@ -1,11 +1,12 @@
 .top_nav {
-    /* border: 3px solid red; */
+    border: 3px solid blue;
     background-color: rgb(72, 72, 247);
     width: 100vw;
     box-shadow: 1px 1px 6px blue;
 
     position: fixed;
     top: 0;
+    left: 0;
 
     z-index: 999 !important;
 }

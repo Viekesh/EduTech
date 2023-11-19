@@ -1,7 +1,9 @@
 .main_heading {
-    /* border: 3px solid blue; */
-    margin: 9vh 0;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    margin: 72px 0 30px -3px;
     padding: 0 3vh;
+    width: 100vw;
     height: 21vh;
     background: url(../../../../Assets/Images/backgr\ 2023-11-06\ at\ 3.08.45\ PM.jpeg);
     background-repeat: no-repeat;
@@ -10,11 +12,12 @@
 
     display: flex;
     align-items: center;
+    box-shadow: 1px 1px 6px gray;
 }
 
 .main_heading h1 {
     color: snow;
-    font-family: Monsterrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-shadow: 1px 1px 9px blue;
 }
