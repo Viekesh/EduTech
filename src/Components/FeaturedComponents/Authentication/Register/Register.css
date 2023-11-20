@@ -54,6 +54,18 @@
     right: 45px;
 }
 
+.user_auth>.register>form>.log_in_eye_invisible {
+    position: absolute;
+    bottom: 90px;
+    right: 45px;
+}
+
+.user_auth>.register>form>.confirm_pass_eye_invisible {
+    position: absolute;
+    bottom: 90px;
+    right: 45px;
+}
+
 
 .form_buttons button {
     /* border: 1px solid black; */
@@ -65,5 +77,6 @@
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     font-weight: 600;
+    text-transform: uppercase;
     box-shadow: 1px 1px 3px rgb(177, 177, 255);
 }

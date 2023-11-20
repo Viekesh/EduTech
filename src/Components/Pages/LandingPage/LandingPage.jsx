@@ -36,6 +36,17 @@ const LandingPage = () => {
 
                 <Footer />
             </section>
+
+            <section className="dev_profile">
+                <h1>
+                    developed by
+                    <a
+                        href="https://www.linkedin.com/in/vikesh-gaikwad-994872194"
+                    >
+                        &nbsp; Vikesh Gaikwad
+                    </a>
+                </h1>
+            </section>
         </>
     )
 };

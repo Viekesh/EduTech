@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import "./Register.css";
 import Footer from "../../../Pages/Footer/Footer";
-import SocialLinks from "../../SocialLinks/SocialLinks";
 
 
 
@@ -468,7 +467,6 @@ const Register = () => {
                 </div>
             </section>
 
-            <SocialLinks />
             <Footer />
         </>
     )
