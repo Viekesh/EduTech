@@ -19,8 +19,8 @@ const LandingPage = () => {
                 {
                     LandingPageHeadline.map((h) => (
                         <div className="heading1">
-                            <h1 className="text1">{h.text1}</h1>
-                            <h1 className="text2">{h.text2}</h1>
+                            <h1 className="text1" id="Text1">{h.text1}</h1>
+                            <h1 className="text2" id="Text2">{h.text2}</h1>
                         </div>
                     ))
                 }

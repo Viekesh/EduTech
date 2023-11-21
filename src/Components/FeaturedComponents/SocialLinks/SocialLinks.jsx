@@ -24,8 +24,8 @@ const SocialLinks = () => {
     const HandleScroll = () => {
 
         if (window.scrollY) {
-            setMailIconPosition(22);
-            setWhatsAppIconPos(30);
+            setMailIconPosition(23);
+            setWhatsAppIconPos(32);
         } else {
             setMailIconPosition(12);
             setWhatsAppIconPos(12);

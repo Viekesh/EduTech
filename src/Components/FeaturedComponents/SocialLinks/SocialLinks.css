@@ -94,6 +94,18 @@
 
 
 
+@media only screen and (min-width: 768px) {
+    .whatsapp {
+        right: 9.6vw;
+    }
+
+    .mail {
+        right: 9.6vw;
+    }
+}
+
+
+
 /* .call_animate a .MuiSvgIcon-root {
     font-size: 66px;
 } */

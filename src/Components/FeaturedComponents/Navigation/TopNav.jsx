@@ -50,7 +50,7 @@ const TopNav = () => {
 
                             <NavLink to="/contact" className="nav_link">Contact</NavLink>
 
-                            <NavLink to="/about" className="nav_link">About</NavLink>
+                            <NavLink to="/About" className="nav_link">About</NavLink>
                         </div>
 
                         <div className="nav_icon y_axis_center">

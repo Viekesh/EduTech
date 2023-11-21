@@ -62,7 +62,7 @@
 
 .user_auth>.register>form>.confirm_pass_eye_invisible {
     position: absolute;
-    bottom: 90px;
+    bottom: 90 px;
     right: 45px;
 }
 
@@ -79,4 +79,22 @@
     font-weight: 600;
     text-transform: uppercase;
     box-shadow: 1px 1px 3px rgb(177, 177, 255);
+}
+
+
+
+/* GAuth */
+
+.form_buttons.for_desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .form_buttons.for_andi {
+        display: none;
+    }
+
+    .form_buttons.for_desktop {
+        display: block;
+    }
 }
