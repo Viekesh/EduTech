@@ -21,9 +21,15 @@ const TopNav = () => {
         document.querySelector("body").classList.toggle("body-overflow-visible");
     };
 
+    const handleOverlayClick = () => {
+        if (setShowMenu) {
+            setShowMenu(false);
+        }
+    }
+
     return (
         <>
-            <div className="top_nav x_axis_center">
+            <nav className="top_nav x_axis_center">
                 <div className="nav_elements y_axis_center">
                     <div className="logo x_y_axis_center">
                         {/* <div className="icon x_y_axis_center">
@@ -72,10 +78,10 @@ const TopNav = () => {
 
                     </div>
                 </div>
-            </div>
+            </nav>
 
             <div
-                className={`navigation_section navigation_style ${showMenu ? "overlay" : ""
+                className={`navigation_section y_axis_center navigation_style ${showMenu ? "overlay" : ""
                     }`}
                 id="Navigation"
             >
@@ -125,6 +131,11 @@ const TopNav = () => {
                         <h1 className="section_name">About</h1>
                     </NavLink>
                 </div>
+
+                <div
+                    className="overlay_box"
+                    onClick={handleOverlayClick}
+                ></div>
             </div>
         </>
     );

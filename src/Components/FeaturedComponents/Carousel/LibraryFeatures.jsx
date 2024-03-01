@@ -33,9 +33,9 @@ const LibraryFeatures = () => {
                                             {/* <h3>{linkData.title}</h3> */}
                                             <img src={linkData.img} alt="" />
                                         </div>
-                                        <div className="descrip">
+                                        {/* <div className="descrip">
                                             <h5>{linkData.description}</h5>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </SwiperSlide>
                             )

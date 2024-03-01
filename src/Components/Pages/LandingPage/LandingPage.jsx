@@ -7,35 +7,66 @@ import { LandingPageHeadline } from "../../../ServiceDataBase/ManualData/Content
 import LibraryFeatures from "../../FeaturedComponents/Carousel/LibraryFeatures";
 import SubHead from "../../FeaturedComponents/Headings/SubHeadings/SubHeading";
 import SocialLinks from "../../FeaturedComponents/SocialLinks/SocialLinks";
+import kidstudying from "../../../Assets/Images/kidstudying.png";
 
 
 
 const LandingPage = () => {
 
+    const textAnimate = () => {
+        document.getElementById("Text1").style.marginLeft = 0 + "px";
+        document.getElementById("textOneBorder").style.width = 30 + "vw";
+
+        function display() {
+            document.getElementById("Text2").style.paddingTop = 0 + "vh";
+            document.getElementById("Text2").style.opacity = 1;
+        }
+
+        const borderDelay = () => {
+            document.getElementById("Text1").style.opacity = 1;
+            document.getElementById("textTwoBorder").style.width = 50 + "vw";
+        };
+
+        display();
+        setTimeout(borderDelay, 2000);
+    }
+
+    const animateDelay = () => {
+        setTimeout(textAnimate, 2000);
+    }
+
     return (
         <>
-            <section className="landing_page">
+            <header onLoad={animateDelay()}>
                 <TopNav />
+
+                {/* <div className="landing_page_image">
+                    <img src={kidstudying} alt="" />
+                </div> */}
                 {
                     LandingPageHeadline.map((h) => (
                         <div className="heading1">
+                            <div id="textOneBorder"></div>
                             <h1 className="text1" id="Text1">{h.text1}</h1>
                             <h1 className="text2" id="Text2">{h.text2}</h1>
+                            <div id="textTwoBorder"></div>
                         </div>
                     ))
                 }
+            </header>
 
-                <SubHead headTitle="Library Features" />
+            <main>
+                <SubHead headTitle="Library Features:" />
                 <LibraryFeatures />
 
                 <div className="qt">
                     <RandomQuotes />
                 </div>
+            </main>
 
-                <SocialLinks />
+            <SocialLinks />
 
-                <Footer />
-            </section>
+            <Footer />
 
             <section className="dev_profile">
                 <h1>

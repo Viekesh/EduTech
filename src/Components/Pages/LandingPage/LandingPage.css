@@ -1,8 +1,7 @@
-.landing_page {
+header {
     border: 3px solid transparent;
-    padding: 36vh 0 0 0;
-    background-color: #d2d1d3;
-    background-color: #fefeff;
+    padding: 30vh 0 0 0;
+    height: 100vh;
     background-color: #fefeff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%236964ff' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 
@@ -11,45 +10,60 @@
     z-index: 9;
 }
 
+.landing_page_image {
+    border: 2px solid blue;
+}
+
 .heading1 {
     border: 2px solid transparent;
     margin: 0 auto;
-    width: auto;
-    height: 45vh;
+    width: 80%;
+    line-height: 36px;
 
     position: relative;
 }
 
 
 
-.landing_page>.heading1>.text1 {
-    border: 3px solid transparent;
-    margin: 0 auto 3vh auto;
-    width: 86%;
-    font-family: 'Montserrat', sans-serif;
+header>.heading1>.text1 {
+    /* border: 3px solid black; */
+    margin: 0 0 0 -6vh;
+    font-family: 'Kanit', sans-serif;
     font-size: 36px;
     font-weight: 900;
     background: linear-gradient(to right, black, green, rgb(129, 214, 1), green, green, green);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-transform: capitalize;
-    /* text-shadow: 1px 1px 6px rgb(255, 153, 153); */
 
     /* position: absolute;
     top: 0;
-    left: 0;
+    left: -15px; */
 
     opacity: 0;
-    transition: 0.9s; */
+    transition: 1s;
 }
 
-.landing_page>.heading1>.text2 {
+#textOneBorder {
+    border-top: 6px solid black;
+    margin: 1vh 0;
+    width: 0vw;
+    transition: 0.6s;
+}
+
+#textTwoBorder {
+    border-top: 6px solid black;
+    margin: 1vh 0;
+    width: 0vw;
+    transition: 1s;
+}
+
+header>.heading1>.text2 {
     border: 2px solid transparent;
-    margin: 0 auto;
-    width: 86%;
-    font-family: Monsterrat, sans-serif;
+    padding-top: 1vh;
+    font-family: "Kanit", sans-serif;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 600;
     /* color: snow; */
 
     background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, rgb(72, 72, 212));
@@ -59,26 +73,38 @@
     text-shadow: 1px 1px 6px rgb(255, 153, 153);
 
     /* position: absolute;
-    bottom: 0;
-    left: 15px;
+    top: 60vh;*/
 
     opacity: 0;
-    transition: 0.9s; */
+    transition: 1.6s;
+}
+
+main {
+    padding: 12vh 0;
+    background-attachment: fixed;
+    background-color: #010003;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f8f6fc' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 @media only screen and (min-width: 768px) {
+
+    .landing_page>.landing_page_image>img {
+        width: 1000px;
+        border: 2px solid blue;
+    }
+
     .heading1 {
         width: 66%;
     }
 
     .landing_page>.heading1>.text1 {
         width: 60%;
-        text-align: center;
+        text-align: right;
     }
 
     .landing_page>.heading1>.text2 {
         width: 60%;
-        text-align: center;
+        text-align: right;
     }
 }
 

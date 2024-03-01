@@ -6,15 +6,10 @@
     box-shadow: 1px 1px 6px gray;
 }
 
-
-
-.library_features .e_com_swiper {
-    border: 3px solid transparent;
+.library_features .mySwiper {
     border-radius: 21px;
-    padding: 9px 0;
-    height: 60vh;
+    padding: 1vh;
     background-color: black;
-    box-shadow: 1px 1px 6px gray;
 }
 
 .e_com_swiper .feature_image {
