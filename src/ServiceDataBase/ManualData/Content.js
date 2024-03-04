@@ -35,3 +35,12 @@ export const FeaturesOfLib = [
         img: twentyfour
     }
 ];
+
+
+
+export const InformationContentData = [
+    {
+        contentOne: "Our dedicated library team goes beyond books, actively engaging in the community through enriching programs and outreach initiatives",
+        contentTwo: "for the latest update follow us on instagram",
+    }
+];

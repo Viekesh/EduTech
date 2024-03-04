@@ -1,0 +1,43 @@
+.instagram_link {
+    /* border: 3px solid red; */
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.instagram_link>a {
+    border: 6px solid blue;
+    border-radius: 50%;
+    background-color: black;
+
+    width: 96px;
+    height: 33px;
+    position: relative;
+    animation: linkbounce infinite 1s linear;
+}
+
+@keyframes linkbounce {
+    from {
+        margin: 4vh 0 0 0;
+    }
+
+    50% {
+        margin: 1vh 0 0 0;
+    }
+
+    to {
+        margin: 4vh 0 0 0;
+    }
+}
+
+.instagram_link>a>svg {
+    position: absolute;
+    bottom: 6px;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, rgb(72, 72, 212));
+}
+
+.instagram_link img {
+    height: 36vh;
+}

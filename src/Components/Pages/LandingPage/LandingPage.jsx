@@ -7,7 +7,8 @@ import { LandingPageHeadline } from "../../../ServiceDataBase/ManualData/Content
 import LibraryFeatures from "../../FeaturedComponents/Carousel/LibraryFeatures";
 import SubHead from "../../FeaturedComponents/Headings/SubHeadings/SubHeading";
 import SocialLinks from "../../FeaturedComponents/SocialLinks/SocialLinks";
-import kidstudying from "../../../Assets/Images/kidstudying.png";
+import InformationContent from "./InformationContent";
+// import kidstudying from "../../../Assets/Images/kidstudying.png";
 
 
 
@@ -59,6 +60,8 @@ const LandingPage = () => {
                 <SubHead headTitle="Library Features:" />
                 <LibraryFeatures />
 
+                <InformationContent />
+
                 <div className="qt">
                     <RandomQuotes />
                 </div>
@@ -68,7 +71,7 @@ const LandingPage = () => {
 
             <Footer />
 
-            <section className="dev_profile">
+            {/* <section className="dev_profile">
                 <h1>
                     developed by
                     <a
@@ -77,7 +80,7 @@ const LandingPage = () => {
                         &nbsp; Vikesh Gaikwad
                     </a>
                 </h1>
-            </section>
+            </section> */}
         </>
     )
 };

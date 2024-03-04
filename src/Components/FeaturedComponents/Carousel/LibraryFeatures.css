@@ -30,6 +30,32 @@
     box-shadow: 1px 1px 9px rgb(186, 186, 255);
 }
 
+:root {
+    --swiper-navigation-size: 12px !important;
+    --swiper-navigation-color: black;
+    font-weight: 900 !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    border: 3px solid blue !important;
+    border-radius: 50%;
+    padding: 9px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: blue !important;
+    font-weight: 900 !important;
+}
+
+.swiper-button-prev {
+    margin: -2vh 0 0 1vh;
+}
+
+.swiper-button-next {
+    margin: -2vh 1vh 0 0;
+}
+
 .e_com_swiper .feature_image h3 {
     border: 2px solid transparent;
     position: absolute;
