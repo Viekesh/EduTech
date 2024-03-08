@@ -3,7 +3,7 @@
     border-radius: 21px;
     margin: 3vh auto;
     width: 86%;
-    box-shadow: 1px 1px 6px gray;
+    /* box-shadow: 1px 1px 6px gray; */
 }
 
 .library_features .mySwiper {
