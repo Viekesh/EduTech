@@ -1,0 +1,18 @@
+/* .about {
+    border: 3px solid red;
+} */
+
+.about_content {
+    /* border: 3px solid black; */
+    margin: 9vh auto;
+    width: 80%;
+}
+
+.about_content p {
+    /* border: 3px solid blue; */
+    margin: 0 auto 6vh auto;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: justify;
+}

@@ -1,32 +1,59 @@
-import React from "react";
-import "./About";
-import TopNav from "../../FeaturedComponents/Navigation/TopNav";
-import Footer from "../Footer/Footer";
+import { AboutCon } from "../../../ServiceDataBase/ManualData/AboutContent";
+import Testimonials from "../../Common/Testimonials/Testimonials";
 import MainHeading from "../../FeaturedComponents/Headings/MainHeading/MainHeading";
+import SubHead from "../../FeaturedComponents/Headings/SubHeadings/SubHeading";
+import TopNav from "../../FeaturedComponents/Navigation/TopNav";
+import SocialLinks from "../../FeaturedComponents/SocialLinks/SocialLinks";
+import Footer from "../Footer/Footer";
+import "./About.css";
+
 
 
 
 const About = () => {
     return (
         <>
-            <TopNav />
-            <MainHeading headingTitle="About" />
+            <section className="about">
+                <TopNav />
+                <SocialLinks />
+                <MainHeading headingTitle="About" />
 
-            <div className="about_description">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolorum earum, aliquam voluptatum optio officiis at cupiditate quisquam sequi eius. Beatae temporibus tempore nesciunt sapiente incidunt dolor veritatis maiores consequatur voluptatum culpa!
-                </p>
 
-                <br />
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat explicabo totam at quasi optio nemo, quam maiores aut! Quisquam, aliquid nostrum. Asperiores illo unde repellat molestiae impedit saepe officiis, molestias expedita voluptas adipisci tenetur maxime pariatur facilis ratione, nesciunt est sed doloremque, soluta error esse? Blanditiis temporibus quod tempora autem, deserunt consequuntur veritatis modi odio quas quis molestiae recusandae natus illum suscipit officia aliquam sapiente nesciunt.
-                </p>
-            </div>
-            <Footer />
+                <div className="about_content">
+                    {
+                        AboutCon.map((data) => {
+                            return (
+                                <>
+                                    <p>{data.contentOne}</p>
+                                    <p>{data.contentTwo}</p>
+                                </>
+                            )
+                        })
+                    }
+                </div>
+
+                <SubHead headTitle="Our Team:" />
+                <Testimonials />
+
+                <div className="about_content">
+                    {
+                        AboutCon.map((data) => {
+                            return (
+                                <>
+                                    <p>{data.contentThree}</p>
+                                    <p>{data.contentFour}</p>
+                                </>
+                            )
+                        })
+                    }
+                </div>
+
+                <Footer />
+            </section>
         </>
     )
-};
+}
 
 
 

@@ -46,19 +46,19 @@ const SocialLinks = () => {
             <div className="portfolio_links x_y_axis_center">
 
                 <div style={whatsapp} id="Mail" className="whatsapp x_y_axis_center">
-                    <a href="https://wa.me/+917620174776/?text=What Can I Do For You" className="x_y_axis_center">
+                    <a href="https://wa.me/+918983131884/?text=What Can I Do For You" className="x_y_axis_center">
                         <IoLogoWhatsapp />
                     </a>
                 </div>
 
                 <div style={mail} id="Mail" className="mail x_y_axis_center">
-                    <a href="mailto:vikesh.g99@gmail.com" className="x_y_axis_center">
+                    <a href="mailto:aniket.kuttarmare670@gmail.com" className="x_y_axis_center">
                         <BiLogoGmail />
                     </a>
                 </div>
 
                 <div className="call_animate x_y_axis_center">
-                    <a href="tel:+917620174776" className="links call x_y_axis_center">
+                    <a href="tel:+918983131884" className="links call x_y_axis_center">
                         <BiSolidPhoneCall />
                     </a>
                 </div>

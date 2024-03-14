@@ -86,7 +86,7 @@ const TopNav = () => {
                 id="Navigation"
             >
                 <div className="nav_links">
-                    <NavLink to="/LogIn" className="nav_sub_section y_axis_center">
+                    <NavLink to="/Authenticate" className="nav_sub_section y_axis_center">
                         <div className="section_icon x_y_axis_center">
                             <BiUserCircle />
                         </div>
@@ -128,7 +128,7 @@ const TopNav = () => {
                         <div className="section_icon x_y_axis_center">
                             <FcAbout />
                         </div>
-                        <h1 className="section_name">About</h1>
+                        <h1 className="section_name">About Us</h1>
                     </NavLink>
                 </div>
 

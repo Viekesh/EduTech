@@ -8,6 +8,8 @@ import LibraryFeatures from "../../FeaturedComponents/Carousel/LibraryFeatures";
 import SubHead from "../../FeaturedComponents/Headings/SubHeadings/SubHeading";
 import SocialLinks from "../../FeaturedComponents/SocialLinks/SocialLinks";
 import InformationContent from "./InformationContent";
+import Testimonials from "../../Common/Testimonials/Testimonials";
+import QnA from "../../Common/Qna/QnA";
 // import kidstudying from "../../../Assets/Images/kidstudying.png";
 
 
@@ -65,6 +67,23 @@ const LandingPage = () => {
                 <div className="qt">
                     <RandomQuotes />
                 </div>
+
+                <SubHead headTitle="Testimonials:" />
+                <Testimonials />
+
+                <SubHead headTitle="Any Doubts" />
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
+                <QnA question="Question" answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum placeat laboriosam aliquid accusantium sequi voluptates provident praesentium." />
+
             </main>
 
             <SocialLinks />
