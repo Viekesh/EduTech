@@ -1,8 +1,11 @@
 @media only screen and (min-width : 768px) {
 
     .top_nav {
-        border: 3px solid snow;
+        border-bottom: 9px solid gray;
         padding: 9px 0;
+        /* background-color: blue; */
+        background-color: #06038D;
+        box-shadow: 0 0 0 blue;
 
         /* background: rgba(255, 255, 255, 0.6);
         box-shadow: 0 8px 32px 0 rgba(255, 254, 254, 0.37);
@@ -13,10 +16,8 @@
     }
 
     .nav_elements {
-        /* border: 3px solid red; */
         border-radius: 9px;
-        background-color: rgb(72, 72, 247);
-        width: 66%;
+        width: 60%;
         padding: 0 9px;
     }
 
@@ -31,16 +32,16 @@
     }
 
     .logo_techset {
-        font-family: Oswald, sans-serif;
-        font-size: 18px;
+        font-family: "Lexend", sans-serif;
+        font-size: 30px;
         font-weight: 900;
         color: rgb(248, 187, 187);
         text-shadow: 1px 1px 1px 3px;
     }
 
     .logo_code {
-        font-family: Oswald, sans-serif;
-        font-size: 18px;
+        font-family: "Lexend", sans-serif;
+        font-size: 30px;
         font-weight: 900;
         color: rgb(186, 255, 186);
     }
@@ -50,12 +51,11 @@
     }
 
     .github_n_nav_icon {
-        width: 360px;
+        width: 50%;
         color: snow;
     }
 
     .desktop_nav_elements {
-        /* border: 2px solid black; */
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -64,7 +64,12 @@
     .desktop_nav_elements>a {
         color: snow;
         font-weight: bold;
-        font-family: Lexend, sans-serif;
-        font-size: 15px;
+        font-family: "Kanit", sans-serif;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .desktop_nav_elements>a:hover {
+        color: green;
     }
 }

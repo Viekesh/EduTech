@@ -10,15 +10,22 @@ import SocialLinks from "../../FeaturedComponents/SocialLinks/SocialLinks";
 import InformationContent from "./InformationContent";
 import Testimonials from "../../Common/Testimonials/Testimonials";
 import QnA from "../../Common/Qna/QnA";
-// import kidstudying from "../../../Assets/Images/kidstudying.png";
+import girlstudying from "../../../Assets/Images/cartoon girl studying.png";
 
 
 
 const LandingPage = () => {
 
+    let matchMedia = window.matchMedia("(min-width: 768px)");
+
     const textAnimate = () => {
         document.getElementById("Text1").style.marginLeft = 0 + "px";
-        document.getElementById("textOneBorder").style.width = 30 + "vw";
+
+        if (matchMedia.matches) {
+            document.getElementById("textOneBorder").style.width = 15 + "vw";
+        } else {
+            document.getElementById("textOneBorder").style.width = 30 + "vw";
+        }
 
         function display() {
             document.getElementById("Text2").style.paddingTop = 0 + "vh";
@@ -27,7 +34,12 @@ const LandingPage = () => {
 
         const borderDelay = () => {
             document.getElementById("Text1").style.opacity = 1;
-            document.getElementById("textTwoBorder").style.width = 50 + "vw";
+
+            if (matchMedia.matches) {
+                document.getElementById("textTwoBorder").style.width = 24 + "vw";
+            } else {
+                document.getElementById("textTwoBorder").style.width = 50 + "vw";
+            }
         };
 
         display();
@@ -49,13 +61,36 @@ const LandingPage = () => {
                 {
                     LandingPageHeadline.map((h) => (
                         <div className="heading1">
+                            <div id="deskTextOneBorder"></div>
                             <div id="textOneBorder"></div>
+
                             <h1 className="text1" id="Text1">{h.text1}</h1>
                             <h1 className="text2" id="Text2">{h.text2}</h1>
+
                             <div id="textTwoBorder"></div>
+                            <div id="deskTextTwoBorder"></div>
                         </div>
                     ))
                 }
+
+                {/* {
+                    LandingPageHeadline.map((h) => (
+                        <div className="desktop_heading">
+                            <div id="deskTextOneBorder"></div>
+                            <div id="textOneBorder"></div>
+
+                            <h1 className="text1" id="Text1">{h.text1}</h1>
+                            <h1 className="text2" id="Text2">{h.text2}</h1>
+
+                            <div id="textTwoBorder"></div>
+                            <div id="deskTextTwoBorder"></div>
+                        </div>
+                    ))
+                } */}
+
+                <div className="img">
+                    <img src={girlstudying} alt="" />
+                </div>
             </header>
 
             <main>

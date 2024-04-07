@@ -1,6 +1,6 @@
 .top_nav {
     border: 3px solid blue;
-    background-color: rgb(72, 72, 247);
+    background-color: blue;
     width: 100vw;
     box-shadow: 1px 1px 6px blue;
 
@@ -54,8 +54,6 @@
 
 .logo .company_name h1 {
     font-family: 'Kanit', sans-serif;
-    font-size: 18px;
-    font-weight: 900;
 }
 
 .logo_techset {
@@ -232,7 +230,7 @@
     transition: 0.1s;
     /* transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
 
-    z-index: 4;
+    z-index: 998 !important;
 }
 
 .navigation_section.overlay {
@@ -258,7 +256,7 @@
     width: 50vw;
     height: 100vh;
     /* background-color: rgb(29, 29, 29); */
-    background-color: snow;
+    background-color: gray;
 }
 
 .nav_sub_section {
