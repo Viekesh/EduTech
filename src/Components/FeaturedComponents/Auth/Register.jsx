@@ -7,6 +7,7 @@ import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import { authInitialise, dataBase } from "../../../FirebaseConfiguration";
 import TopNav from "../Navigation/TopNav";
 import MainHeading from "../Headings/MainHeading/MainHeading";
+import Footer from "../../Pages/Footer/Footer";
 
 
 
@@ -205,9 +206,9 @@ const Register = () => {
                             <button type="submit" className="input_field">Register</button>
                         </div>
                     </form>
-
-
                 </div>
+
+                <Footer />
             </section>
         </>
     )

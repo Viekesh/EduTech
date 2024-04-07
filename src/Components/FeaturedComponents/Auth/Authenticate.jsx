@@ -7,6 +7,8 @@ import { FaUserPlus } from "react-icons/fa";
 import TopNav from "../Navigation/TopNav";
 import MainHeading from "../Headings/MainHeading/MainHeading";
 import { authInitialise } from "../../../FirebaseConfiguration";
+import GAuth from "./GAuth";
+import Footer from "../../Pages/Footer/Footer";
 
 
 
@@ -132,6 +134,8 @@ const Authenticate = () => {
                     </div> */}
 
                 </div>
+
+                <Footer />
             </section>
         </>
     )
