@@ -5,21 +5,24 @@ import About from "../Components/Pages/About/About";
 import Authenticate from "../Components/FeaturedComponents/Auth/Authenticate";
 import Register from "../Components/FeaturedComponents/Auth/Register";
 import Profile from "../Components/FeaturedComponents/Auth/Profile";
+import AppState from "../Components/FeaturedComponents/ContextAPI/AppState";
 
 
 
 const ReactRoutes = () => {
     return (
         <>
-            <Routes>
-                <Route exact path="/" element={<LandingPage />}></Route>
+            <AppState>
+                <Routes>
+                    <Route exact path="/" element={<LandingPage />}></Route>
 
-                <Route exact path="/Authenticate" element={<Authenticate />}></Route>
-                <Route exact path="/Register" element={<Register />}></Route>
-                <Route exact path="/Profile" element={<Profile />}></Route>
+                    <Route exact path="/Authenticate" element={<Authenticate />}></Route>
+                    <Route exact path="/Register" element={<Register />}></Route>
+                    <Route exact path="/Profile" element={<Profile />}></Route>
 
-                <Route path="/About" element={<About />}></Route>
-            </Routes>
+                    <Route path="/About" element={<About />}></Route>
+                </Routes>
+            </AppState>
         </>
     )
 }
