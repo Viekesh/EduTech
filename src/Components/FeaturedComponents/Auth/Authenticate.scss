@@ -196,16 +196,16 @@ $authChildElementsBtnBg: lightgray;
     justify-content: space-between;
 }
 
-.user_actions>button {
+.user_actions>.btn {
     border: 3px solid darkgray;
     border-radius: 50%;
-    justify-content: space-between;
     width: 54px;
     height: 54px;
     background-color: darkblue;
+    justify-content: center;
 }
 
-.user_actions>button>svg {
+.user_actions>.btn>svg {
     color: snow;
     font-size: 27px;
 }

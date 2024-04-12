@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import TopNav from "../Navigation/TopNav";
 import { authInitialise } from "../../../FirebaseConfiguration";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { MdOutlineCreate } from "react-icons/md";
 import { IoMdLogOut } from "react-icons/io";
 
@@ -48,8 +48,8 @@ const Profile = () => {
                         <input value={formData.email} readOnly />
                     </div>
                     <div className="user_actions">
-                        <button className="create_blog"><MdOutlineCreate /></button>
-                        <button className="logout" onClick={onLogOut}><IoMdLogOut /></button>
+                        <NavLink to="/CreateBlog" className="btn create_blog y_axis_center"><MdOutlineCreate /></NavLink>
+                        <button className="btn logout" onClick={onLogOut}><IoMdLogOut /></button>
                     </div>
                 </div>
             </section>
