@@ -48,8 +48,17 @@ const Profile = () => {
                         <input value={formData.email} readOnly />
                     </div>
                     <div className="user_actions">
-                        <NavLink to="/CreateBlog" className="btn create_blog y_axis_center"><MdOutlineCreate /></NavLink>
-                        <button className="btn logout" onClick={onLogOut}><IoMdLogOut /></button>
+                        {/* <button className="btn y_axis_center">
+                            <NavLink to="/CreateBlog" className="create_blog y_axis_center"><MdOutlineCreate /></NavLink>
+                        </button>
+                        <button className="btn logout" onClick={onLogOut}><IoMdLogOut /></button> */}
+
+                        <div className="btn y_axis_center">
+                            <NavLink to="/CreateBlog"><MdOutlineCreate /></NavLink>
+                        </div>
+                        <div className="btn y_axis_center" onClick={onLogOut}>
+                            <IoMdLogOut />
+                        </div>
                     </div>
                 </div>
             </section>

@@ -44,6 +44,41 @@ const LibraryFeatures = () => {
                 </Swiper>
 
             </div>
+
+
+
+            <div className="desk_library_features">
+
+                <Swiper
+                    slidesPerView={3}
+                    spaceBetween={10}
+                    slidesPerGroup={1}
+                    loop={true}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper"
+                    loopFillGroupWithBlank={true}
+                    navigation={true}
+                >
+                    {
+                        FeaturesOfLib.map((linkData) => {
+                            return (
+                                <SwiperSlide key={linkData.id} className="e_com_swiper">
+                                    <div className="features">
+                                        <div className="feature_image">
+                                            {/* <h3>{linkData.title}</h3> */}
+                                            <img src={linkData.img} alt="" />
+                                        </div>
+                                        {/* <div className="descrip">
+                                            <h5>{linkData.description}</h5>
+                                        </div> */}
+                                    </div>
+                                </SwiperSlide>
+                            )
+                        })
+                    }
+                </Swiper>
+
+            </div>
         </>
     )
 }

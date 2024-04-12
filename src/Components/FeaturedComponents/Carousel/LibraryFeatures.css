@@ -6,6 +6,10 @@
     /* box-shadow: 1px 1px 6px gray; */
 }
 
+.desk_library_features {
+    display: none;
+}
+
 .library_features .mySwiper {
     border-radius: 21px;
     padding: 1vh;
@@ -92,5 +96,62 @@
 @media only screen and (min-width: 768px) {
     .library_features {
         display: none;
+    }
+
+    .desk_library_features {
+        display: block;
+    }
+
+    .desk_library_features .mySwiper {
+        border: 3px solid transparent;
+        border-radius: 21px;
+        width: 60%;
+        padding: .6vh;
+        background-color: transparent;
+        justify-content: space-between;
+    }
+
+    .e_com_swiper .feature_image {
+        border: 3px solid transparent;
+        border-radius: 21px;
+        margin: 0 auto;
+        height: 36vh;
+        position: relative;
+        box-shadow: 1px 1px 3px gray;
+    }
+
+    .e_com_swiper .feature_image img {
+        border-radius: 21px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 5;
+        box-shadow: 1px 1px 9px rgb(186, 186, 255);
+    }
+
+    :root {
+        --swiper-navigation-size: 12px !important;
+        --swiper-navigation-color: black;
+        font-weight: 900 !important;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        border: 3px solid blue !important;
+        border-radius: 50%;
+        padding: 9px;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+        color: blue !important;
+        font-weight: 900 !important;
+    }
+
+    .swiper-button-prev {
+        margin: -2vh 0 0 1vh;
+    }
+
+    .swiper-button-next {
+        margin: -2vh 1vh 0 0;
     }
 }

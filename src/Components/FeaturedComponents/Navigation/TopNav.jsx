@@ -51,7 +51,7 @@ const TopNav = () => {
 
 
                         <div className="desktop_nav_elements">
-                            <NavLink to="/login" className="nav_link">LogIn</NavLink>
+                            <NavLink to="/Authenticate" className="nav_link">LogIn</NavLink>
 
                             <NavLink to="/library" className="nav_link">Library</NavLink>
 

@@ -22,6 +22,21 @@ const InformationContent = () => {
 
                     <Instagram />
                 </div>
+
+                <div className="desk_content_elements">
+                    <Instagram />
+
+                    {
+                        InformationContentData.map((content) => {
+                            return (
+                                <section className="desk_content">
+                                    <h2>{content.contentOne}</h2>
+                                    <h2>{content.contentTwo}</h2>
+                                </section>
+                            )
+                        })
+                    }
+                </div>
             </section>
         </>
     )

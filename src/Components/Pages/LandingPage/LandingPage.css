@@ -5,6 +5,8 @@ header {
     background-color: #fcfaff;
     background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23cfc3e2' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
 
     z-index: 9;
     position: relative;
@@ -24,8 +26,6 @@ header {
 
     z-index: 996 !important;
 }
-
-
 
 header>.heading1>.text1 {
     margin: 0 0 0 -6vh;
@@ -69,16 +69,12 @@ header>.heading1>.text2 {
     font-family: "Kanit", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    /* color: snow; */
 
     background: linear-gradient(to right, #f32170, #cf23cf, blue, blue, blue);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-transform: capitalize;
     text-shadow: 1px 1px 6px rgb(187, 187, 255);
-
-    /* position: absolute;
-    top: 60vh;*/
 
     opacity: 0;
     transition: 1.6s;
@@ -91,19 +87,28 @@ header .img {
 main {
     padding: 12vh 0;
     background-attachment: fixed;
-    background-color: #000000;
-    /* background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E"); */
+    background-color: #fcfaff;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23cfc3e2' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
 }
 
 
 
+/* information content */
+
+.desk_content_elements {
+    display: none;
+}
+
 .information_content {
-    /* border: 3px solid snow; */
+    border: 3px solid transparent;
     margin: 24vh auto;
 }
 
 .information_content>.content_elements {
-    /* border: 3px solid red; */
+    border: 3px solid red;
     margin: 0 auto;
     width: 80%;
     color: snow;
@@ -124,9 +129,7 @@ main {
 
 
 
-
-
-
+/* random quotes */
 .qt {
     margin: 12vh auto;
     height: 54vh;
@@ -149,18 +152,19 @@ main {
 @media only screen and (min-width: 768px) {
 
     header>.heading1 {
-        margin: 10vh 50vh;
+        border: 3px solid transparent;
+        margin: 8vh 50vh;
         width: 30%;
         line-height: 45px;
     }
 
     header>.heading1>.text1 {
-        font-size: 60px;
-        line-height: 54px;
+        font-size: 45px;
+        line-height: 45px;
     }
 
     header>.heading1>.text2 {
-        font-size: 27px;
+        font-size: 24px;
     }
 
     header .img {
@@ -171,7 +175,45 @@ main {
     }
 
     header .img img {
-        width: 300px;
-        height: 500px;
+        width: 270px;
+        height: 450px;
+    }
+
+    /* information content */
+    .information_content>.content_elements {
+        display: none;
+    }
+
+    .information_content>.desk_content_elements {
+        display: block;
+        border: 3px solid transparent;
+        margin: 0 auto;
+        width: 60%;
+        color: snow;
+
+        display: flex;
+    }
+
+    .desk_content {
+        border: 3px solid transparent;
+        width: 50%;
+    }
+
+    .information_content>.desk_content_elements>.desk_content>h2 {
+        border: 3px solid transparent;
+        margin: 0;
+        text-transform: capitalize;
+        font-family: "Kanit", sans-serif;
+        font-size: 30px;
+        font-weight: 100;
+        color: black;
+    }
+
+    .information_content>.desk_content_elements>.desk_content>h2:nth-child(2) {
+        border: 3px solid transparent;
+        margin: 30px auto 0 auto;
+        font-size: 21px;
+        font-weight: 500;
+        color: gray;
     }
 }

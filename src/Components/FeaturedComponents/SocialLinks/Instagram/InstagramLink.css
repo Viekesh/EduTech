@@ -41,3 +41,19 @@
 .instagram_link img {
     height: 36vh;
 }
+
+
+
+@media only screen and (min-width: 768px) {
+    .instagram_link {
+        border: 3px solid transparent;
+        border-right: 1px solid gray;
+        margin: 0 18px 0 0;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
+    .instagram_link img {
+        height: 63vh;
+    }
+}

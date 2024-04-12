@@ -23,34 +23,9 @@
 
 /* logo start */
 .nav_elements .logo {
-    /* border: 3px solid green; */
-    width: 108px;
+    border: 3px solid transparent;
     justify-content: space-between;
 }
-
-.nav_elements .logo .icon {
-    border: 3px solid snow;
-    border-radius: 50%;
-    width: 27px;
-    height: 27px;
-}
-
-.nav_elements .logo .icon .icon_box {
-    /* border: 1px solid black; */
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-}
-
-.nav_elements .logo .icon img {
-    border: 1px solid snow;
-    border-radius: 18px;
-    width: 100%;
-}
-
-/* .logo .company_name {
-    border: 2px solid snow;
-} */
 
 .logo .company_name h1 {
     font-family: 'Kanit', sans-serif;
