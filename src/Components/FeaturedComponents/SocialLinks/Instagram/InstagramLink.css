@@ -48,7 +48,8 @@
     .instagram_link {
         border: 3px solid transparent;
         border-right: 1px solid gray;
-        margin: 0 18px 0 0;
+        margin: 0 54px 0 0;
+        padding: 0 18px 0 0;
         width: 50%;
         justify-content: space-evenly;
     }

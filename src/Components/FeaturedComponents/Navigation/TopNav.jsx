@@ -55,8 +55,6 @@ const TopNav = () => {
 
                             <NavLink to="/library" className="nav_link">Library</NavLink>
 
-                            <NavLink to="/blogs" className="nav_link">Blogs</NavLink>
-
                             <NavLink to="/contact" className="nav_link">Contact</NavLink>
 
                             <NavLink to="/About" className="nav_link">About</NavLink>

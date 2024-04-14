@@ -3,6 +3,10 @@
     margin: 0 auto 15vh auto;
 }
 
+.desk_testimonials {
+    display: none;
+}
+
 .testimonials>.mySwiper {
     border: 3px solid transparent;
     padding: 6vh 4vh 0 4vh;
@@ -90,4 +94,97 @@
 .testimonials .swiper-button-next {
     margin: 1vh 3vh 0 0;
     color: blue !important;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .testimonials {
+        display: none;
+    }
+
+    .desk_testimonials {
+        display: block;
+        border: 3px solid transparent;
+        margin: 0 auto 30vh auto;
+        width: 60vw;
+    }
+
+    .desk_testimonials>.mySwiper {
+        border: 3px solid transparent;
+        padding: 9vh 4vh 0 6vh;
+    }
+
+    .desk_testimonials>.mySwiper .swipe_slides {
+        border: 1px solid gray;
+        border-radius: 24px;
+        width: 12vw;
+        height: 24vh;
+        background-color: snow;
+    }
+
+    .desk_testimonials>.mySwiper .swipe_slides>.inner_slides {
+        position: relative;
+    }
+
+    .desk_testimonials>.mySwiper .swipe_slides>.inner_slides>h4 {
+        border: 1px solid gray;
+        border-radius: 30%;
+        padding: 1vh;
+        width: 60px;
+        background-color: snow;
+        position: absolute;
+        left: 12vh;
+        top: -3vh;
+    }
+
+    .desk_testimonials>.mySwiper .swipe_slides>.inner_slides>.slide_image {
+        border: 1px solid gray;
+        border-radius: 100%;
+        padding: 1vh;
+        width: 60px;
+        height: 60px;
+        background-color: snow;
+
+        position: absolute;
+        left: 3vh;
+        top: -6vh;
+        z-index: 994 !important;
+    }
+
+    .desk_testimonials>.mySwiper .swipe_slides>.inner_slides>.slide_image>img {
+        border-radius: 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .desk_testimonials>.mySwiper .swipe_slides>.inner_slides>.descrip {
+        border: 3px solid transparent;
+        width: 86%;
+    }
+
+    .desk_testimonials>.mySwiper .swipe_slides>.inner_slides>.descrip>h5 {
+        /* border: 1px solid black; */
+        text-align: justify;
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: gray;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        border: 3px solid gray !important;
+
+    }
+
+    .desk_testimonials .swiper-button-prev {
+        margin: 2vh 0 0 3vh !important;
+        color: gray !important;
+    }
+
+    .desk_testimonials .swiper-button-next {
+        margin: 2vh 1vh 0 0 !important;
+        color: gray !important;
+    }
 }

@@ -31,3 +31,16 @@
     right: 15px;
     bottom: -30px;
 }
+
+
+
+@media only screen and (min-width: 768px) {
+    .random_quote {
+        padding: 30px 12px;
+        width: 50%;
+    }
+
+    .random_quote>h1 {
+        font-size: 45px;
+    }
+}
