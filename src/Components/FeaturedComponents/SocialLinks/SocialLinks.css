@@ -96,6 +96,16 @@
     font-size: 24px;
 }
 
+@media only screen and (min-width: 768px) {
+    .mail {
+        bottom: 126px;
+    }
+
+    .whatsapp {
+        bottom: 169px;
+    }
+}
+
 
 
 @media only screen and (min-width: 768px) {

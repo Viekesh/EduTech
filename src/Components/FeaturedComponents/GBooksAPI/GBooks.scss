@@ -1,0 +1,22 @@
+.g_books {
+    border: 3px solid green;
+    margin: 9px auto;
+    width: 90%;
+}
+
+.g_books>.search_block {
+    border: 3px solid blue;
+}
+
+.g_books>.search_block>.search_icon {
+    border: 3px solid red;
+}
+
+.g_books>.search_block>.search_icon>input {
+    border: 1px solid gray;
+    border-radius: 9px;
+    padding: 6px;
+    width: 100%;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+}

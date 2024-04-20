@@ -4,6 +4,7 @@ import { authInitialise } from "../../../FirebaseConfiguration";
 import { NavLink, useNavigate } from "react-router-dom";
 import { MdOutlineCreate } from "react-icons/md";
 import { IoMdLogOut } from "react-icons/io";
+import Footer from "../../Pages/Footer/Footer";
 
 
 
@@ -61,6 +62,7 @@ const Profile = () => {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </section>
         </>
     );

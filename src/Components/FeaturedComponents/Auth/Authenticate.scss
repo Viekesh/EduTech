@@ -168,7 +168,7 @@ $authChildElementsBtnBg: lightgray;
 
 .user_info {
     border: 3px solid transparent;
-    margin: 12vh auto;
+    margin: 18vh auto;
     padding: 9px;
 }
 
@@ -214,7 +214,20 @@ $authChildElementsBtnBg: lightgray;
 }
 
 @media only screen and (min-width: 768px) {
+
+    .authenticate .auth_elements {
+        border: 3px solid transparent;
+        width: 36%;
+    }
+
     .g_auth {
         display: block;
+    }
+
+    .user_info {
+        border: 3px solid transparent;
+        margin: 21vh auto;
+        padding: 0px;
+        width: 50%;
     }
 }

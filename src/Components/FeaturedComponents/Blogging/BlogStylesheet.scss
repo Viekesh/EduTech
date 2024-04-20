@@ -1,4 +1,15 @@
 // create blog
 .create_blog {
-    margin: 72px 0 0 0;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 90px auto 0 auto;
+    padding: 6px;
+    width: 96%;
+}
+
+@media only screen and (min-width: 768px) {
+    .create_blog {
+        margin: 90px auto 0 auto;
+        width: 60%;
+    }
 }

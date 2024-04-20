@@ -7,6 +7,7 @@ import Register from "../Components/FeaturedComponents/Auth/Register";
 import Profile from "../Components/FeaturedComponents/Auth/Profile";
 import AppState from "../Components/FeaturedComponents/ContextAPI/AppState";
 import CreateBlog from "../Components/FeaturedComponents/Blogging/CreateBlog";
+import Library from "../Components/Pages/Library/Library";
 
 
 
@@ -16,6 +17,7 @@ const ReactRoutes = () => {
             <AppState>
                 <Routes>
                     <Route exact path="/" element={<LandingPage />}></Route>
+                    <Route path="/Library" element={<Library />}></Route>
                     <Route path="/About" element={<About />}></Route>
 
                     {/* Authenticate */}

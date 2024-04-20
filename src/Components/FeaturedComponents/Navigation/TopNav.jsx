@@ -47,15 +47,12 @@ const TopNav = () => {
 
                     <div className="github_n_nav_icon">
 
-
-
-
                         <div className="desktop_nav_elements">
                             <NavLink to="/Authenticate" className="nav_link">LogIn</NavLink>
 
-                            <NavLink to="/library" className="nav_link">Library</NavLink>
+                            <NavLink to="/Library" className="nav_link">Library</NavLink>
 
-                            <NavLink to="/contact" className="nav_link">Contact</NavLink>
+                            <NavLink to="/Contact" className="nav_link">Contact</NavLink>
 
                             <NavLink to="/About" className="nav_link">About</NavLink>
                         </div>
@@ -101,12 +98,12 @@ const TopNav = () => {
                         <h1 className="section_name">Admission</h1>
                     </NavLink>
 
-                    <div className="nav_sub_section y_axis_center">
+                    <NavLink to="/Library" className="nav_sub_section y_axis_center">
                         <div className="section_icon x_y_axis_center">
                             <LiaBloggerB />
                         </div>
                         <h1 className="section_name">Library</h1>
-                    </div>
+                    </NavLink>
                     <div className="nav_sub_section y_axis_center">
                         <div className="section_icon x_y_axis_center">
                             <BsJournalCode />
